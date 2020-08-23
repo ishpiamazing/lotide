@@ -71,3 +71,6 @@ assertArraysEqual(arr,[1,6,3])
 const arr1 = ["1", "2", "3"];
 without(arr1, [1, 2, "3"]);
 assertArraysEqual(arr1,["1", "2", "3"])
+
+
+module.exports = without;

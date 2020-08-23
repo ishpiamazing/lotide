@@ -32,3 +32,5 @@ const result = countLetters("abcabcbcccc");
 assertEqual(result["a"],2);
 assertEqual(result["b"],3);
 assertEqual(result["c"],6);
+
+module.exports = countLetters;
